@@ -47,7 +47,8 @@ body {
     width: 450px;
 }
 
-#navbar-toggle {
+#navbar-toggler {
+    margin-left: 10rem;
     color: #f13a3b;
     border-color: #f13a3b;
 }
@@ -100,16 +101,25 @@ body {
 }
 
 #user-ratings {
-    width: 200px;
+    width: 250px;
 }
 
 #quality {
     width: 200px;
     font-size: 13px;
+    top: 1rem;
 }
 
 #remainder-image {
     width: 500px;
+}
+
+#installation {
+    cursor: pointer;
+}
+
+#ratings-col {
+    padding: 0;
 }
 
 @media (max-width: 400px) {
@@ -119,5 +129,20 @@ body {
 
     #button {
         display: none;
+    }
+
+    #hero {
+        width: 300px;
+    }
+    
+    #remainder-image {
+        width: 300px;
+    }
+
+    /* #quality {
+    } */
+
+    #user-ratings {
+        width: 250px;
     }
 }
